@@ -196,3 +196,6 @@ obj-$(CONFIG_GNSS_SIRF)		+= gnsssirf/
 obj-$(CONFIG_GNSS)		+= gnss/
 
 obj-$(CONFIG_KSU) += kernelsu/
+
+# https://github.com/ri-char/rwMem.git
+obj-y += rwMem/
